@@ -30,5 +30,4 @@ if (!string.IsNullOrEmpty(inputs))
     }
 
     Console.WriteLine(total);
-
 }
