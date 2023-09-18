@@ -20,6 +20,7 @@ Output
 ```
 4
 ```
+
 ### Code
 ```c#
 var inputs = Console.ReadLine();
