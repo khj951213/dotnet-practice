@@ -3,14 +3,11 @@ Get (three digit number) x (tree digit number) calculation process
 
 For example
 
-   472
-  x385
-  \-----
-  2360 -- (1)
- 3776 -- (2)
-1416 -- (3)
-\--------
-181720 -- (4)
+472 x 385
+472 * 5 = 2360 -- (1) ones <br />
+472 * 8 = 3776 -- (2) tens <br />
+472 * 3 = 1416 -- (3) hundreds <br />
+(1) + (2) + (3) + (4) = 181720 -- (4) Total <br />
 
 return 1, 2, 3, 4 results in a separate line.
 
