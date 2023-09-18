@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-var inputs = Console.ReadLine();
+﻿var inputs = Console.ReadLine();
 if (!string.IsNullOrEmpty(inputs))
 {
     var a = int.Parse(inputs.Split(" ")[0]);
