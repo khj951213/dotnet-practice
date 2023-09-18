@@ -24,7 +24,8 @@ I will be consistently updating the question and answer!.
 - Q14681 - Find quadrant
 - Q2884 - Set alarm clock before 45 minutes.
 - Q2525 - Calculate oven timer.
-
+- Q2480 - Calculate the numbers on three dice.
+  
 # Build
 - Visual studio is recommended.
 - Open the project file and run the program to see the result of each question and answer.
