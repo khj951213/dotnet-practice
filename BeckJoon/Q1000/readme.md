@@ -9,7 +9,7 @@ Output
 ```
 3
 ```
-### Answer
+### Code
 ```c#
 var inputs = Console.ReadLine();
 if (!string.IsNullOrEmpty(inputs))
