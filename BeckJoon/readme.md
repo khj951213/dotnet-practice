@@ -1,4 +1,4 @@
-# BeakJoon Coding Practice
+# BaekJoon Coding Practice
 BeackJoon is one of the most famous Korean coding practice website. 
 Various questions including basic to advanced level.
 The questions and answers are all transalted to English. 
@@ -21,6 +21,9 @@ I will be consistently updating the question and answer!.
 - Q2588 - Tree digit calculation process
 - Q2753 - Find leap year
 - Q9498 - Calculate grade (A, B, C, D, F)
+- Q14681 - Find quadrant
+- Q2884 - Set alarm clock before 45 minutes.
+- Q2525 - Calculate oven timer.
 
 # Build
 - Visual studio is recommended.
