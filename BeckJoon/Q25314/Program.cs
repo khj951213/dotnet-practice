@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-﻿using System.Text;
+using System.Text;
 
 var input = Console.ReadLine();
 
@@ -14,7 +13,4 @@ if (!string.IsNullOrEmpty(input))
     stringBuilder.Append("int");
     Console.WriteLine(stringBuilder.ToString());
 }
-=======
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
->>>>>>> Stashed changes
+
