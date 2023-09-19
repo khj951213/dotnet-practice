@@ -25,12 +25,17 @@ Case #5: 5 + 2 = 7
 
 ### Code
 ```c#
-var inputs = Console.ReadLine();
-if (!string.IsNullOrEmpty(inputs))
+using System.Text;
+
+var cnt = int.Parse(Console.ReadLine());
+
+var builder = new StringBuilder();
+
+for (int i = 0; i < cnt; i++)
 {
-    var a = int.Parse(inputs.Split(" ")[0]);
-    var b = int.Parse(inputs.Split(" ")[1]);
-    var c = int.Parse(inputs.Split(" ")[2]);
-    Console.WriteLine(a + b + c);
+    var strArray = Console.ReadLine().Split(" ");
+    builder.AppendLine($"Case #{i + 1}: {strArray[0]} + {strArray[1]} = " + (int.Parse(strArray[0]) + int.Parse(strArray[1])).ToString());
 }
+
+Console.WriteLine(builder.ToString());
 ```
