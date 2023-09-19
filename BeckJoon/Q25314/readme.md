@@ -1,4 +1,5 @@
 ### Question 25314
+<<<<<<< Updated upstream
 오늘은 혜아의 면접 날이다. 면접 준비를 열심히 해서 앞선 질문들을 잘 대답한 혜아는 이제 마지막으로 칠판에 직접 코딩하는 문제를 받았다. 혜아가 받은 문제는 두 수를 더하는 문제였다. C++ 책을 열심히 읽었던 혜아는 간단히 두 수를 더하는 코드를 칠판에 적었다. 코드를 본 면접관은 다음 질문을 했다. “만약, 입출력이 
 N 바이트 크기의 정수라면 프로그램을 어떻게 구현해야 할까요?”
 
@@ -11,6 +12,20 @@ N 바이트 크기의 정수라면 프로그램을 어떻게 구현해야 할까요?”
 
 혜아가 
 N 바이트 정수까지 저장할 수 있다고 생각해서 칠판에 쓴 정수 자료형의 이름은 무엇일까?
+=======
+Coding is PE (Physical Education) !
+
+Today is June's interview day. June has been preparing for the interview test and now he is doing his final interview coding test using a whiteboard.
+The last question was to add two numbers. June read the programming book and wrote the code on the whiteboard. When the examiner looked at the whiteboard,
+he asked June "if the input is N byte sized integer, how should we implement this?"
+<br /> <br />
+June recalled his memory and remembered that the book said long int can store up to 4 bytes and long long int can store up to 8 bytes. June thought that adding long each time
+at the front of the int, will the size increase by 4 bytes? And thought long long long int will store up to 12 bytes and long long long long int can store up to 16 bytes. 
+June started writing the data type despite of interviewer's panic face.
+
+Question: in the first input, the N will be given (4 <= N <= 1000; N is multiples of 4)
+
+>>>>>>> Stashed changes
 
 ### Example 1
 Input
@@ -34,6 +49,7 @@ long long long long long int
 
 ### Code
 ```c#
+<<<<<<< Updated upstream
 using System.Text;
 
 var input = Console.ReadLine();
@@ -49,4 +65,7 @@ if (!string.IsNullOrEmpty(input))
     stringBuilder.Append("int");
     Console.WriteLine(stringBuilder.ToString());
 }
+=======
+Console.WriteLine("Hello, World!");
+>>>>>>> Stashed changes
 ```
