@@ -25,7 +25,15 @@ I will be consistently updating the question and answer!.
 - Q2884 - Set alarm clock before 45 minutes.
 - Q2525 - Calculate oven timer.
 - Q2480 - Calculate the numbers on three dice.
-  
+- Q2738 - Multiplication table
+- Q2739 - A + B
+- Q8393 - Add from 1 to N
+- Q25304 - Check the receipt
+- Q25311 - Caculate byte
+- Q15552 - Find the fastest way to solve A + B
+- Q11021 - A + B
+- Q11022 - A + B
+
 # Build
 - Visual studio is recommended.
 - Open the project file and run the program to see the result of each question and answer.
