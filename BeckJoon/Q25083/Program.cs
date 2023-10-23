@@ -1,0 +1,1 @@
+﻿Console.WriteLine("         ,r'\"7\r\nr`-_   ,'  ,/\r\n \\. \". L_r'\r\n   `~\\/\r\n      |\r\n      |");
