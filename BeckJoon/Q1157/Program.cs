@@ -29,7 +29,5 @@ if (inputChars != null && inputChars.Length > 0)
             index = c - 97;
         }
     }
-
     Console.WriteLine(isQuestion ? "?" : ((char)(index+97)).ToString().ToUpper());
-    
 }
