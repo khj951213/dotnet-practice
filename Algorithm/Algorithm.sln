@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36121.58 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11723.231 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{C4215DF1-36A1-4207-B7AE-28C1804F1B86}"
 EndProject
@@ -10,6 +10,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SieveOfEratosthenes", "SieveOfEratosthenes\SieveOfEratosthenes.csproj", "{DDAD2007-0CD4-46EE-B18C-C6B2486DD399}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpoBySquare", "ExpoBySquare\ExpoBySquare.csproj", "{1C7C37D1-BDD9-4150-B860-137981A41C13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SearchingAlgorithm", "SearchingAlgorithm", "{96F9E479-CB54-478C-953C-C5D1695C412E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequentialSearch", "SequentialSearch\SequentialSearch.csproj", "{9A35E369-B7FC-49C2-A2A6-EF87F8E79CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpSearch", "JumpSearch\JumpSearch.csproj", "{F53967D3-DBC8-4F32-BF6E-D6E76990E818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{26522D0C-ACEA-4D5A-921D-DD0D9215BDF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +41,26 @@ Global
 		{1C7C37D1-BDD9-4150-B860-137981A41C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C7C37D1-BDD9-4150-B860-137981A41C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C7C37D1-BDD9-4150-B860-137981A41C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A35E369-B7FC-49C2-A2A6-EF87F8E79CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A35E369-B7FC-49C2-A2A6-EF87F8E79CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A35E369-B7FC-49C2-A2A6-EF87F8E79CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A35E369-B7FC-49C2-A2A6-EF87F8E79CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F53967D3-DBC8-4F32-BF6E-D6E76990E818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53967D3-DBC8-4F32-BF6E-D6E76990E818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53967D3-DBC8-4F32-BF6E-D6E76990E818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53967D3-DBC8-4F32-BF6E-D6E76990E818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26522D0C-ACEA-4D5A-921D-DD0D9215BDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26522D0C-ACEA-4D5A-921D-DD0D9215BDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26522D0C-ACEA-4D5A-921D-DD0D9215BDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26522D0C-ACEA-4D5A-921D-DD0D9215BDF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A35E369-B7FC-49C2-A2A6-EF87F8E79CAF} = {96F9E479-CB54-478C-953C-C5D1695C412E}
+		{F53967D3-DBC8-4F32-BF6E-D6E76990E818} = {96F9E479-CB54-478C-953C-C5D1695C412E}
+		{26522D0C-ACEA-4D5A-921D-DD0D9215BDF0} = {96F9E479-CB54-478C-953C-C5D1695C412E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BCFF222-FB83-442A-AC9C-D369C3A9CE9B}
