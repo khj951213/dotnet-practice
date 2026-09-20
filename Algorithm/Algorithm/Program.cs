@@ -1,10 +1,11 @@
-﻿namespace Algorithm
+﻿using Algorithm.Problems;
+
+namespace Algorithm;
+
+public class Program
 {
-    internal class Program
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        Console.WriteLine(CorrectParantheses.Solve("((("));
     }
 }
