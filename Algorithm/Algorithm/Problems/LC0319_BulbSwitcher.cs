@@ -2,7 +2,7 @@ using System;
 
 namespace Algorithm.Problems;
 
-public static class Bulb
+public static class LC319_BulbSwitcher
 {
     public static int MinPresses(int[] bulbs)
     {

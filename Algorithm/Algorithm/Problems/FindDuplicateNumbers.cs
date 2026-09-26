@@ -9,17 +9,17 @@ namespace Algorithm.Problems;
 public static class FindDuplicateNumbers
 {
     public static int Solve(int[] nums)
-{
-    HashSet<int> passed = [];
-
-    foreach (int num in nums)
     {
-        if (!passed.Add(num))
-        {
-            return num;
-        }
-    }
+        HashSet<int> passed = [];
 
-    return -1;
-}
+        foreach (int num in nums)
+        {
+            if (!passed.Add(num))
+            {
+                return num;
+            }
+        }
+
+        return -1;
+    }
 }
