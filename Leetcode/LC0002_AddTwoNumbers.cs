@@ -1,11 +1,5 @@
-ListNode l1 = new(2,
-    new ListNode(4,
-        new ListNode(3)));
-
-ListNode l2 = new(5,
-    new ListNode(6,
-        new ListNode(4)));
-
+ListNode l1 = new(1, new ListNode(2, new ListNode(3)));
+ListNode l2 = new(1, new ListNode(2, new ListNode(3)));
 ListNode? result = Solve(l1, l2);
 
 while (result != null)

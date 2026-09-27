@@ -1,6 +1,6 @@
 
-int[] nums1 = [1,3];
-int[] nums2 = [2];
+int[] nums1 = [];
+int[] nums2 = [1];
 double simpleResult = SimpleSolution(nums1, nums2);
 double optimisedResult = OptimisedSolution(nums1, nums2);
 
