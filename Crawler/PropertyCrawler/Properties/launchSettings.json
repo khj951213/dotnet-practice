@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PropertyCrawler (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PropertyCrawler (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

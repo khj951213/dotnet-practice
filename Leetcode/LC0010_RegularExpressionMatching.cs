@@ -10,4 +10,4 @@
 ///     Output: false
 ///     Explanation: "a" does not match the entire string
 /// 
-/// 
+

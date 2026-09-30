@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<UserControl
+    x:Class="PropertyCrawler.Controls.PropertyCard"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Border
+        Width="300"
+        CornerRadius="12"
+        BorderThickness="1"
+        BorderBrush="#30000000">
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="180"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Image
+                Grid.Row="0"
+                Source="{x:Bind Property.MainImage, Mode=OneWay}"
+                Stretch="UniformToFill"/>
+
+            <Border
+                Grid.Row="1"
+                Padding="16">
+
+                <StackPanel Spacing="8">
+
+                    <TextBlock
+                        Text="{x:Bind Property.Price, Mode=OneWay}"
+                        FontSize="20"
+                        FontWeight="SemiBold"/>
+
+                    <TextBlock
+                        Text="{x:Bind Property.Address, Mode=OneWay}"
+                        FontSize="16"
+                        TextWrapping="Wrap"/>
+
+                    <StackPanel
+                        Orientation="Horizontal"
+                        Spacing="10">
+
+                        <TextBlock Text="{x:Bind Property.Bedrooms, Mode=OneWay}"/>
+                        <TextBlock Text="Beds"/>
+
+                        <TextBlock Text="{x:Bind Property.Bathrooms, Mode=OneWay}"/>
+                        <TextBlock Text="Baths"/>
+
+                        <TextBlock Text="{x:Bind Property.CarSpaces, Mode=OneWay}"/>
+                        <TextBlock Text="Cars"/>
+
+                    </StackPanel>
+
+                    <TextBlock
+                        Text="{x:Bind Property.LandSize, Mode=OneWay}"
+                        Opacity="0.7"/>
+
+                </StackPanel>
+
+            </Border>
+
+        </Grid>
+
+    </Border>
+
+</UserControl>
